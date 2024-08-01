@@ -1,0 +1,15 @@
+.numbersE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border: solid 1px rgb(0, 132, 209);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+#additionalE {
+  background-color: rgb(0, 132, 209);
+}
