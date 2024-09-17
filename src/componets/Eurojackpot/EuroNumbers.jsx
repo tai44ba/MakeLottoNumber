@@ -3,8 +3,8 @@ import ENumbers from './ENumbers.jsx'
 
 
 const EuroNumbers = () => {
-    const [numbersE, setNumbersE] = useState([])
-    const [additionalE, setAdditionalE] = useState([])
+    const [numbersE, setNumbersE] = useState(["?","?","?","?","?"])
+    const [additionalE, setAdditionalE] = useState(["?","?"])
 
     const randomNumberMain = () => {
         const numArr = []

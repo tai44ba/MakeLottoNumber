@@ -3,8 +3,8 @@ import Numbers from '../Lotto-6-49/Numbers.jsx'
 
 
 const LuckyNumber649 = () => {
-    const [numbers, setNumbers] = useState([])
-    const [additional, setAdditional] = useState()
+    const [numbers, setNumbers] = useState(["?","?","?","?","?","?"])
+    const [additional, setAdditional] = useState("?")
 
     const randomNumber = () => {
         const numArr = []
